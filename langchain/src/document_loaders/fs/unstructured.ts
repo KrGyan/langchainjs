@@ -127,7 +127,7 @@ type UnstructuredDirectoryLoaderOptions = UnstructuredLoaderOptions & {
 export class UnstructuredLoader extends BaseDocumentLoader {
   public filePath: string;
 
-  private apiUrl = "https://api.unstructured.io/general/v0/general";
+  private apiUrl = "https://unstructured-api-dev.bcom3test.com/general/v0/general";
 
   private apiKey?: string;
 
